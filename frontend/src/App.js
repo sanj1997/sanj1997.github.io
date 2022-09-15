@@ -7,6 +7,7 @@ import Skills from './Sections/skills';
 import Projects from './Sections/projects';
 import Contact from './Sections/contact';
 import styles from "./Styles/main.module.css"
+import BottomNav from './Sections/bottomNav';
 function App() {
   return (
     <div className={styles}>
@@ -16,6 +17,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <BottomNav/>
     </div>
   );
 }

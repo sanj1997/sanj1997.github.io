@@ -1,5 +1,6 @@
 import { Box,Flex, Highlight, Text, Image,UnorderedList,ListItem} from "@chakra-ui/react";
-
+import { LightSpeed } from "react-reveal";
+import Wobble from 'react-reveal/Wobble';
 const About = () => {
   return (
     <Box
@@ -8,6 +9,7 @@ const About = () => {
       textAlign={"center"}
       id="about"
     >
+      <LightSpeed left>
       <Text color={"#412a4c"} fontSize={"5xl"}>
         <Highlight
           query={"About"}
@@ -15,13 +17,13 @@ const About = () => {
         >
           All About Me
         </Highlight>
-      </Text>
+      </Text></LightSpeed>
       <Flex marginTop={"50px"} gap="40px" justifyContent="space-evenly" alignItems={"center"} flexDirection={["column","column","column","row"]}>
         <Box width={["60%","60%","60%","30%"]}>
-          <Image
+          <Wobble><Image
             src="https://cdn.dribbble.com/users/3484830/screenshots/16787618/media/b134e73ef667b926c76d8ce3f962dba2.gif"
             alt="GEEK"
-          />
+          /></Wobble>
         </Box>
         <Box  width={["100%","100%","100%","60%"]}>
           <UnorderedList textAlign={"left"} fontSize="lg" color={"#412a4c"}>
