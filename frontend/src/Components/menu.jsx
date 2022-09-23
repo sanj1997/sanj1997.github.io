@@ -4,6 +4,7 @@ import {GrProjects} from "react-icons/gr"
 import {BiHomeCircle} from "react-icons/bi"
 import {CgProfile} from "react-icons/cg"
 import {MdContactMail} from "react-icons/md"
+import {ImStatsDots} from "react-icons/im"
 import { Link } from 'react-scroll';
 const MenuComp = () => {
   return (
@@ -26,6 +27,9 @@ const MenuComp = () => {
         <Link activeClass="active" to="skills" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}><MenuItem icon={<GiArtificialIntelligence />} >Skills</MenuItem></Link>
         <Link activeClass="active" to="projects" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}> <MenuItem icon={<GrProjects/>} >
           Projects
+        </MenuItem></Link>
+        <Link activeClass="active" to="contacts" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}><MenuItem icon={<ImStatsDots/>} >
+          Statistics
         </MenuItem></Link>
         <Link activeClass="active" to="contacts" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}><MenuItem icon={<MdContactMail/>} >
           Contact

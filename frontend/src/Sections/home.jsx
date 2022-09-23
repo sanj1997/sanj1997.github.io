@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect"
 import { useState } from "react"
 import Pulse from 'react-reveal/Pulse';
 import logo from "../utils/logo.jpg"
+import Resume from "../utils/Js_Sanjay.pdf"
 const Home=()=>{
     const [state]=useState({
         image:`${logo}`
@@ -19,7 +20,7 @@ const Home=()=>{
                  <Text fontSize={["2xl","4xl","5xl","5xl"]} color="#e57cd8" >JS SANJAY</Text>
                  <Text fontSize={["3xl","4xl","6xl","6xl"]} color={"#fce5d8"}><Typewriter options={{autoStart:true,loop:true,delay:40,
                     strings:["Full Stack Developer.","Tech Enthusiast."]}}/></Text>
-                    <Button color={"white"} mt={"15px"} bg={"#e47cd7"} _active={"none"} _hover={{bg:"#4b3656"}}>Resume</Button>
+                    <Button color={"white"} mt={"15px"} bg={"#e47cd7"} _active={"none"} _hover={{bg:"#4b3656"}}><a href={Resume} download>Resume</a></Button>
                  </Box>
              </Box>
         </Flex>

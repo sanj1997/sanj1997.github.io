@@ -35,7 +35,7 @@ const Skills=()=>{
                 <Button onClick={()=>handleSkills("frontend")} _active={"none"} color={"white"} _hover={{bg:"#564260"}} bg={"#e57cd8"}><Text>Frontend</Text></Button>
                 <Button onClick={()=>handleSkills("backend")} _active={"none"} color={"white"} _hover={{bg:"#564260"}} bg={"#e57cd8"}><Text>Backend</Text></Button>
                 </Flex>
-                <Box marginTop={"50px"} display={"grid"} gridTemplateColumns={["repeat(1,1fr)","repeat(2,1fr)","repeat(2,1fr)","repeat(4,1fr)","repeat(6,1fr)"]} gap={["15px","20px","30px","50px"]} textAlign={"center"} >
+                <Box marginTop={"50px"} display={"grid"} gridTemplateColumns={["repeat(1,1fr)","repeat(2,1fr)","repeat(2,1fr)","repeat(4,1fr)","repeat(6,1fr)"]} gap={["25px","20px","30px","50px"]} textAlign={"center"} >
                      {req.map((el)=>{
                         return <>
                        <Jump><Flex cursor={"pointer"} borderRadius={"22px"} flexDirection={"column"} bg="#f7f7f7" justifyContent={"space-between"} padding="10px" height={"150px"}>
