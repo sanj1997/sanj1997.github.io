@@ -28,7 +28,7 @@ const MenuComp = () => {
         <Link activeClass="active" to="projects" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}> <MenuItem icon={<GrProjects/>} >
           Projects
         </MenuItem></Link>
-        <Link activeClass="active" to="contacts" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}><MenuItem icon={<ImStatsDots/>} >
+        <Link activeClass="active" to="stats" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}><MenuItem icon={<ImStatsDots/>} >
           Statistics
         </MenuItem></Link>
         <Link activeClass="active" to="contacts" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}><MenuItem icon={<MdContactMail/>} >
