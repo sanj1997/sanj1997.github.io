@@ -26,6 +26,8 @@ This is my portfolio, where you can get to know me better and also see the proje
 
 ## Screenshots
 
+![App Screenshot](/Images/Screenshot%20(228).png)
+
 ![App Screenshot](/Images/Screenshot%20(224).png)
 
 ![App Screenshot](/Images/Screenshot%20(225).png)
@@ -34,5 +36,5 @@ This is my portfolio, where you can get to know me better and also see the proje
 
 ![App Screenshot](/Images/Screenshot%20(227).png)
 
-![App Screenshot](/Images/Screenshot%20(228).png)
+
 
